@@ -13,8 +13,8 @@
 
 .clearfix:before, .clearfix:after {
 	display: table;
-	line-height: 0;    
-	content: ""
+	line-height: 0;
+	content: "" 
 }
 
 .clearfix:after { 
