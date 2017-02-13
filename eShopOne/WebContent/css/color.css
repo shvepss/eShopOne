@@ -24,7 +24,7 @@ select, textarea, input[type="text"], input[type="password"], input[type="dateti
 }
 
 ::selection {
-	background-color: #ca142a;
+	background-color: #ca142a; 
 	color: #fff;
 }
 
