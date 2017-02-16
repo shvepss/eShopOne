@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+/* make header */
+.backGroundPic{background:url(backgroundBlack1.jpg);}
+.main-hearer{margin-top: 15px; padding: 0px 0 0 0; width: 980px; margin: 0 auto -1px auto;}
+.main-hearer .langs-holder{height: 30px; margin: 3px 0 0 0;}
+.row{background:url(spacer-dark-1-980px.png) bottom left no-repeat;height: 120px;}
+.logo{font-size: 25px; font-weight: 700; margin: 0 15px 0 0; color: #cc003e; width: 300px; float: left;}
+.phone-email{display: block; width: 660px; margin-left: 400px; margin-top: 0px;}
+.about-us{width: 300px; margin: 0 0 0 0; color: #cc003e;}
+.phone{background:url(ico-phone.png) 0 1px no-repeat; font-family: 'Trebuchet MS', sans-serif;font-size: 26px; line-height: 31px; font-weight: 400; padding: 0 0 0 40px; margin: 5px 0 15px 0; display: inline-block; color: #C3C3C3;}
+.email{background:url(ico-email.png) 0 1px no-repeat; font-family: 'Trebuchet MS', sans-serif;font-size: 18px; line-height: 31px; font-weight: 400; padding: 0 0 0 40px; margin: 5px 0 15px 0; display: inline-block; color: #C3C3C3;text-decoration:none;}
+.articuls{margin: -80px 100px 0 0;}
+.shopping{padding: 0 0 0 18px; background: url(shopping_cart_white.png) 0px 0px no-repeat; margin: 5px -90px 0 0; float: right; color: #C3C3C3; text-decoration:none;}
+
+/* make main-menu dropdown */
+.main-menu{border-bottom: 1px #747171 solid;height: 60px; font-family: 'Trebuchet MS', sans-serif;}
+.main-menu ul {list-style-type: none; margin: 0; padding: 0; overflow: hidden;}
+.main-menu li {float: left;}
+.main-menu li a, .dropbtn {display: inline-block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;}
+.main-menu li a:hover, .dropdown:hover .dropbtn {background-color: red;}
+.main-menu li.dropdown {display: inline-block;}
+.main-menu .dropdown-content {display: none; position: absolute; background-color: black; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;}
+.main-menu .dropdown-content a {color: white; padding: 12px 16px; text-decoration: none; display: block; text-align: left;}
+.main-menu .dropdown-content a:hover {background-color: red}
+.main-menu .dropdown:hover .dropdown-content {display: block;}
+
+/* make banner */
+.mySlides {display:none;}
+.fade {animation-name: fade; animation-duration: 1.5s;}
+@-webkit-keyframes fade {from {opacity: .1} to {opacity: 1}}
+
+.w3-white,.w3-hover-white:hover{color:#000!important; background-color:#fff!important;}
+.w3-badge {height:13px;width:13px; padding:0}
+
+.w3-section {margin-top: 16px !important; margin-bottom: 16px !important;}
+.w3-display-bottommiddle {position: absolute; left: 50%; transform: translate(-50%,0%); -ms-transform: translate(-50%,0%);}
+.w3-center {text-align: center !important;}
+.w3-large {font-size: 18px !important;}
+
+.w3-left, .w3-right, .w3-badge {cursor: pointer;}
+
+.w3-padding-left {padding-left: 16px !important;}
+.w3-left {margin-top: -230px; margin-left: -1150px;}
+
+.w3-padding-right {padding-right: 16px !important;}
+.w3-right {margin-top: -230px; margin-right: -1150px;}
+
+.w3-badge {height: 13px; width: 13px; padding: 0; display: inline-block; border-radius: 50%; text-align: center !important;}
+.w3-border {border: 1px solid #ccc !important; margin-top: -60px;}
